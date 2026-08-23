@@ -1,10 +1,13 @@
 {
   "name": "school-web",
   "private": true,
-  "version": "2.2.0",
+  "version": "2.2.2",
   "type": "module",
   "scripts": {
+    "restore-media": "node scripts/restore-legacy-media.mjs",
+    "predev": "npm run restore-media",
     "dev": "vite",
+    "prebuild": "npm run restore-media",
     "build": "vite build",
     "preview": "vite preview"
   },
