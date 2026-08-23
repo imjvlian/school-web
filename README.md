@@ -1,31 +1,24 @@
-# PonPes Nurul Huda — React + Supabase
+# School Web — PonPes Nurul Huda
 
-Frontend Laravel/Blade telah dikonversi ke React + Vite, dan backend Laravel diganti dengan Supabase.
+React + Vite frontend dengan Supabase sebagai backend CMS.
 
-## Stack
-
-- React + Vite
-- React Router
-- Supabase Auth
-- Supabase PostgreSQL
-- Supabase Storage
-- Row Level Security
-
-## Quick start
-
+## Setup
 1. Buat project Supabase.
 2. Jalankan `supabase/schema.sql` di SQL Editor.
-3. Buat user admin di Authentication -> Users dan tambahkan UUID-nya ke `admin_profiles` seperti instruksi di `supabase/README.md`.
-4. Salin `.env.example` menjadi `.env` dan isi URL/key Supabase.
-5. Jalankan:
+3. Buat user admin di Supabase Authentication.
+4. Tambahkan UUID user tersebut ke `public.admin_profiles`.
+5. Copy `.env.example` menjadi `.env` dan isi URL + publishable key Supabase.
+6. Jalankan `npm install` lalu `npm run dev`.
 
-```bash
-npm install
-npm run dev
-```
+## Route
+- `/` website publik
+- `/profil`
+- `/berita`
+- `/foto`
+- `/login`
+- `/admin`
+- `/admin/artikel`
+- `/admin/foto`
+- `/admin/video`
 
-Public website: `/`
-Admin login: `/login`
-Admin CMS: `/admin`
-
-Lihat `supabase/README.md` untuk setup lengkap dan `MIGRATION_NOTES.md` untuk pemetaan dari Laravel.
+Supabase menyediakan Auth, PostgreSQL, Storage, dan Row Level Security.
