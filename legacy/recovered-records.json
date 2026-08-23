@@ -1,0 +1,18 @@
+{
+  "source": "storage/logs/laravel.log",
+  "note": "Record below was recoverable from an exception dump in the Laravel log. It is preserved for archival completeness but is not auto-seeded into the production CMS because it appears to be test content and its referenced cover image is absent from the ZIP.",
+  "blogs": [
+    {
+      "legacy_id": 1,
+      "judul": "awsdasd",
+      "slug": "awsdasd",
+      "image": "1715161880.jpg",
+      "desc": "<!DOCTYPE html PUBLIC \"-//W3C//DTD HTML 4.0 Transitional//EN\" \"http://www.w3.org/TR/REC-html40/loose.dtd\">\n<p>aDwdadasdadsadsdasdsad</p>",
+      "created_at": "2024-05-08 09:51:20",
+      "updated_at": "2024-05-08 09:51:20",
+      "image_present_in_zip": false
+    }
+  ],
+  "photos": [],
+  "videos": []
+}
